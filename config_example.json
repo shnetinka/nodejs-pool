@@ -1,14 +1,14 @@
 {
   "pool_id": 0,
   "bind_ip": "127.0.0.1",
-  "hostname": "testpool.com",
+  "hostname": "cryptocoinminingco.com",
   "db_storage_path": "CHANGEME",
-  "coin": "xmr",
+  "coin": "kbr",
   "mysql": {
     "connectionLimit": 20,
     "host": "127.0.0.1",
     "database": "pool",
     "user": "pool",
-    "password": "98erhfiuehw987fh23d"
+    "password": "replay001"
   }
 }
