@@ -1,0 +1,13 @@
+[Unit]
+Description=Karbowanec Daemon
+After=network.target
+
+[Service]
+Type=forking
+GuessMainPID=no
+ExecStart=/usr/local/src/karbo/build/release/bin/karbowanecd --rpc-bind-ip 127.0.0.1 --detach --restricted-rpc
+Restart=always
+User=karbodaemon
+
+[Install]
+WantedBy=multi-user.target
